@@ -105,7 +105,7 @@ package org.robotlegs.core
 		 * instance and perform setter and/ or method injection on that.</p>
 		 * 
 		 * <p>NOTE: This method will always create a new instance. If you need to retrieve an instance
-		 * consider using <code>getInstance</code></p>
+		 * consider using <code>getMappedInstance</code></p>
 		 *
 		 * <p>The <code>IInjector</code> should throw an <code>Error</code>
 		 * if it can't satisfy all dependencies of the injectee.</p>
