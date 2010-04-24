@@ -116,13 +116,13 @@ package org.robotlegs.core
 		function instantiate(clazz:Class):*;
 		
 		/**
-		 * Create or retrieve an instance of the given class
+		 * Create or retrieve an instance of the given mapped class.
 		 * 
 		 * @param clazz
 		 * @param named An optional name (id)
 		 * @return * An instance
 		 */		
-		function getInstance(clazz:Class, named:String = ""):*;
+		function getMappedInstance(clazz:Class, named:String = ""):*;
 		
 		/**
 		 * Create an injector that inherits rules from its parent
