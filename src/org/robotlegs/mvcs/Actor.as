@@ -12,7 +12,6 @@ package org.robotlegs.mvcs
 	
 	import org.robotlegs.base.EventMap;
 	import org.robotlegs.core.IEventMap;
-	import org.robotlegs.core.IActor;
 	
 	/**
 	 * Abstract MVCS <code>IActor</code> implementation
@@ -33,7 +32,7 @@ package org.robotlegs.mvcs
 	 * for extending <code>Actor</code>.</p>
 	 *
 	 */
-	public class Actor implements IActor
+	public class Actor
 	{
 		/**
 		 * @private
